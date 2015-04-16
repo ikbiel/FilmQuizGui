@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FilmGuiViewer()
+comment0.text=\r\n\ Constructor\ for\ FilmGuiViewer\ \r\n\ Constructs\ starting\ frame\ with\ panel,\ title\ label,\ and\ start\ button\r\n\ Constructs\ ClickListener\ object\ to\ work\ with\ buttons\ when\ clicked\r\n
+comment1.params=
+comment1.target=void\ addFirstPage()
+comment2.params=
+comment2.target=void\ addCityPage()
+comment3.params=
+comment3.target=void\ addCountrysidePage()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ Main\ method\ of\ FilmGuiViewer\ makes\ FilmGuiViewer\ object\r\n
+numComments=5

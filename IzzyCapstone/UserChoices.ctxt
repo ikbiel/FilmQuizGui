@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=button\ link
+comment0.target=UserChoices(javax.swing.JButton,\ java.net.URL)
+comment0.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ FinalChoiceFilm\r\n
+numComments=1

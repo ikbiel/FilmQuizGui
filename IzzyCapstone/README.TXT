@@ -26,3 +26,5 @@ USER INSTRUCTIONS:
 SOURCES USED:
 - http://www.wikihow.com/Create-a-Swing-GUI-in-Java 
 - http://cs.lmu.edu/~ray/talks/swing.html
+- http://stackoverflow.com/questions/6525493/a-simple-way-of-embedding-a-video-in-my-swing-gui
+

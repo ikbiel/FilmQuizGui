@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=film
+comment0.target=MediaPlayer(java.net.URL)
+comment1.params=
+comment1.target=void\ play()
+comment1.text=Main\ method\ of\ program.\ Runs\ NativeInterface\ to\ open\ new\ window\ for\ film.
+comment2.params=
+comment2.target=void\ run()
+comment2.text=Method\ creates\ new\ frame\ and\ adds\ movie\ inside.
+comment3.params=
+comment3.target=void\ run()
+comment4.params=film
+comment4.target=javax.swing.JPanel\ getBrowserPanel(java.net.URL)
+comment4.text=\ Method\ creates\ new\ webbrowser\ for\ video\ to\ play.\r\n\ \r\n\ @return\ JPanel\ A\ panel\ for\ new\ frame.\r\n
+comment5.params=
+comment5.target=java.net.URL\ getURL()
+comment5.text=\r\n\ Method\ returns\ film\ URL\ instance\ variable.\r\n\ \r\n\ @return\ URL\ Website\ link\ to\ film\ trailer.\r\n
+numComments=6

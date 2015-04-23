@@ -1,14 +1,14 @@
 #BlueJ class context
 comment0.params=button\ film
 comment0.target=UserChoices(javax.swing.JButton,\ java.net.URL)
-comment0.text=\r\n\ Constructs\ button\ and\ URL\ instance\ variables.\r\n\ \r\n\ @param\ JButton\ The\ button\ of\ user's\ choice\ that\ directs\ to\ film\ trailer\r\n\ @param\ URL\ The\ website\ link\ that\ directs\ user\ to\ film\ trailer\ of\ choice.\r\n
+comment0.text=\n\ Constructs\ button\ and\ URL\ instance\ variables.\n\ \n\ @param\ JButton\ The\ button\ of\ user's\ choice\ that\ directs\ to\ film\ trailer\n\ @param\ URL\ The\ website\ link\ that\ directs\ user\ to\ film\ trailer\ of\ choice.\n
 comment1.params=button
 comment1.target=UserChoices(javax.swing.JButton)
-comment1.text=\r\n\ Constructs\ button\ instance\ variable.\ \r\n\ \r\n\ @param\ JButton\ The\ button\ of\ user's\ choice.\r\n
+comment1.text=\n\ Constructs\ button\ instance\ variable.\ \n\ \n\ @param\ JButton\ The\ button\ of\ user's\ choice.\n
 comment2.params=
 comment2.target=javax.swing.JButton\ getButton()
-comment2.text=\ \r\n\ Returns\ the\ button\ the\ user\ has\ chosen\ that\ leads\ to\ a\ specific\ movie\ trailer.\r\n\ \r\n\ @return\ JButton\ The\ button\ chosen\ by\ user\ to\ indicate\ film\ choice\ and\ hobby\r\n
+comment2.text=\ \n\ Returns\ the\ button\ the\ user\ has\ chosen\ that\ leads\ to\ a\ specific\ movie\ trailer.\n\ \n\ @return\ JButton\ The\ button\ chosen\ by\ user\ to\ indicate\ film\ choice\ and\ hobby\n
 comment3.params=
 comment3.target=java.net.URL\ getURL()
-comment3.text=\ \r\n\ Returns\ the\ website\ link\ to\ the\ specific\ movie\ chosen\ for\ the\ user\ \r\n\ based\ on\ their\ final\ button\ choice\r\n\ \r\n\ @return\ URL\ The\ URL\ website\ link\ to\ the\ correct\ film\ trailer\ based\ upon\ user\ choice\r\n
+comment3.text=\ \n\ Returns\ the\ website\ link\ to\ the\ specific\ movie\ chosen\ for\ the\ user\ \n\ based\ on\ their\ final\ button\ choice\n\ \n\ @return\ URL\ The\ URL\ website\ link\ to\ the\ correct\ film\ trailer\ based\ upon\ user\ choice\n
 numComments=4

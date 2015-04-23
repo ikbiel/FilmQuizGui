@@ -34,10 +34,21 @@ public class FilmGuiViewer
     //if user chooses city
     /** User button for choosing  scenery*/
     private JButton cityChoice;
+    /** First city hobby button choice.*/
+    private JButton cityb1;
+    /** Second city hobby button choice.*/
+    private JButton cityb2;
+    /** Third city hobby button choice.*/
+    private JButton cityb3;
     //if user chooses country
     /** User button for choosing countryside scenery*/
     private JButton countryChoice;
-
+    /** First country hobby button choice.*/
+    private JButton countryb1;
+    /** Second country hobby button choice.*/
+    private JButton countryb2;
+    /** Third country hobby button choice.*/
+    private JButton countryb3;
     /** Click listener object to trigger events when buttons are clicked*/
     private ClickListener listener;
 
@@ -53,7 +64,6 @@ public class FilmGuiViewer
     /** Integer flag to keep track of how many button clicks have been used by user */
     private int buttonClicks = 0;
 
-    private JButton b1;
 
     /**
      * Constructor for FilmGuiViewer 
@@ -189,23 +199,26 @@ public class FilmGuiViewer
             JLabel title = new JLabel("CITY HOBBIES");
             JLabel question = new JLabel("What is your idea of a fun weekend?");
 
-            b1 = new JButton("City Shopping"); 
+            cityb1 = new JButton("City Shopping"); 
             //Devil Wears Prada
             
-            JButton b2 = new JButton("Restaurant Hopping"); 
+            cityb2 = new JButton("Restaurant Hopping"); 
             //Chef 
 
-            JButton b3 = new JButton("Art Gallery Walk"); 
+            cityb3 = new JButton("Art Gallery Walk"); 
             //Midnight in Paris
             
-            b1.addActionListener(listener);
-            b2.addActionListener(listener);
-            b3.addActionListener(listener);
+            cityb1.addActionListener(listener);
+            cityb2.addActionListener(listener);
+            cityb3.addActionListener(listener);
 
             try
-            {   choices[0] = new UserChoices(b1, new URL("http://trailers.apple.com/trailers/fox/thedevilwearsprada/"));
-                choices[1] = new UserChoices(b2, new URL("http://trailers.apple.com/trailers/independent/chef/"));
-                choices[2] = new UserChoices(b3, new URL("http://trailers.apple.com/trailers/sony/midnightinparis/"));
+            {   choices[0] = new UserChoices(cityb1, new URL("http://trailers.apple.com/trailers/fox/thedevilwearsprada/"));
+                choices[1] = new UserChoices(cityb2, new URL("http://trailers.apple.com/trailers/independent/chef/"));
+                choices[2] = new UserChoices(cityb3, new URL("http://trailers.apple.com/trailers/sony/midnightinparis/"));
+                choices[3] = new UserChoices(countryb1, new URL("http://trailers.apple.com/trailers/universal/friday_night_lights/large.html"));
+                choices[4] = new UserChoices(countryb2, new URL("http://trailers.apple.com/trailers/fox/walk_the_line/medium.html"));
+                choices[5] = new UserChoices(countryb3, new URL("http://trailers.apple.com/trailers/embed/thekingsofsummer/trailer/"));
             }
             catch (MalformedURLException exception)
             {
@@ -214,9 +227,9 @@ public class FilmGuiViewer
 
             panel2.add(title);
             panel2.add(question);
-            panel2.add(b1);
-            panel2.add(b2);
-            panel2.add(b3);
+            panel2.add(cityb1);
+            panel2.add(cityb2);
+            panel2.add(cityb3);
 
             cityFrame.add(panel2);
 
@@ -239,24 +252,27 @@ public class FilmGuiViewer
             JLabel title = new JLabel("COUNTRY HOBBIES");
             JLabel question = new JLabel("What is your idea of a fun weekend?");
 
-            JButton b1 = new JButton("Sports Game");
+            countryb1 = new JButton("Sports Game");
             //Friday Night Lights
 
-            JButton b2 = new JButton("Music Festival"); 
+            countryb2 = new JButton("Music Festival"); 
             //Walk the Line
 
-            JButton b3 = new JButton("Camping Outside"); 
+            countryb3 = new JButton("Camping Outside"); 
             //Kings of Summer
 
-            b1.addActionListener(listener);
-            b2.addActionListener(listener);
-            b3.addActionListener(listener);
+            countryb1.addActionListener(listener);
+            countryb2.addActionListener(listener);
+            countryb3.addActionListener(listener);
 
             try
             {
-                choices[3] = new UserChoices(b1, new URL("http://trailers.apple.com/trailers/universal/friday_night_lights/large.html"));
-                choices[4] = new UserChoices(b2, new URL("http://trailers.apple.com/trailers/fox/walk_the_line/medium.html"));
-                choices[5] = new UserChoices(b3, new URL("http://trailers.apple.com/trailers/embed/thekingsofsummer/trailer/"));
+                choices[0] = new UserChoices(cityb1, new URL("http://trailers.apple.com/trailers/fox/thedevilwearsprada/"));
+                choices[1] = new UserChoices(cityb2, new URL("http://trailers.apple.com/trailers/independent/chef/"));
+                choices[2] = new UserChoices(cityb3, new URL("http://trailers.apple.com/trailers/sony/midnightinparis/"));
+                choices[3] = new UserChoices(countryb1, new URL("http://trailers.apple.com/trailers/universal/friday_night_lights/large.html"));
+                choices[4] = new UserChoices(countryb2, new URL("http://trailers.apple.com/trailers/fox/walk_the_line/medium.html"));
+                choices[5] = new UserChoices(countryb3, new URL("http://trailers.apple.com/trailers/embed/thekingsofsummer/trailer/"));
             }
             catch (MalformedURLException exception)
             {
@@ -264,9 +280,9 @@ public class FilmGuiViewer
             }
             panel3.add(title);
             panel3.add(question);
-            panel3.add(b1);
-            panel3.add(b2);
-            panel3.add(b3);
+            panel3.add(countryb1);
+            panel3.add(countryb2);
+            panel3.add(countryb3);
 
             countryFrame.add(panel3);
 

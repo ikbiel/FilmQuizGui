@@ -18,7 +18,7 @@ import chrriis.dj.nativeswing.swtimpl.NativeInterface;
 import chrriis.dj.nativeswing.swtimpl.components.JWebBrowser;
 
 import javax.swing.WindowConstants;
-/** Creates Mini browser to play film clip of viewer's choice
+/** Creates Mini browser to play film clip of viewer's choice.
  * Influenced by Christopher Deckers with help of his class JWebBrowser.
    */
 public class MediaPlayer
@@ -26,6 +26,7 @@ public class MediaPlayer
     /** URL assigned to play inside frame*/
     private URL film;
 
+    /** Default constructor declares URL film instance variable*/
     public MediaPlayer(URL film)
     {
         this.film = film;
@@ -72,16 +73,7 @@ public class MediaPlayer
         webBrowser.navigate("");
         return webBrowserPanel;
     }
-    
-    /**
-     * Method returns film URL instance variable.
-     * 
-     * @return URL Website link to film trailer.
-       */
-    public URL getURL()
-    {
-        return film;
-    }
+
 }
 
 

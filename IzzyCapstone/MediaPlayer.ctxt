@@ -12,5 +12,5 @@ comment3.params=
 comment3.target=void\ run()
 comment4.params=film
 comment4.target=javax.swing.JPanel\ getBrowserPanel(java.net.URL)
-comment4.text=\ Method\ creates\ new\ webbrowser\ for\ video\ to\ play.\n\ \n\ @return\ JPanel\ A\ panel\ for\ new\ frame.\n
+comment4.text=\ Method\ creates\ new\ webbrowser\ for\ video\ to\ play.\r\n\ \r\n\ @return\ JPanel\ A\ panel\ for\ new\ frame.\r\n
 numComments=5

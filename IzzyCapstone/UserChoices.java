@@ -18,7 +18,7 @@ public class UserChoices
     /**
      * Constructs button and URL instance variables.
      * 
-     * @param JButton The button of user's choice that directs to film trailer
+     * @param JButton The button of user's choice that directs to film trailer.
      * @param URL The website link that directs user to film trailer of choice.
      */
     public UserChoices(JButton button, URL film)
@@ -41,7 +41,7 @@ public class UserChoices
     /** 
      * Returns the button the user has chosen that leads to a specific movie trailer.
      * 
-     * @return JButton The button chosen by user to indicate film choice and hobby
+     * @return JButton The button chosen by user to indicate film choice and hobby.
      */
     
     public JButton getButton()
@@ -51,7 +51,7 @@ public class UserChoices
     
     /** 
      * Returns the website link to the specific movie chosen for the user 
-     * based on their final button choice
+     * based on their final button choice.
      * 
      * @return URL The URL website link to the correct film trailer based upon user choice
      */

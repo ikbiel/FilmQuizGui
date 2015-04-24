@@ -10,8 +10,8 @@ import java.net.URISyntaxException;
 import java.awt.Window;
 
 /**
- * Class containing executable frames with user choice buttons
- *  eventually leads to filim trailer after various quiz questions.
+ * Class containing executable frames with user choice buttons.
+ *  Eventually leads to film trailer after various quiz questions.
  * 
  * @author (ikbiel) 
  * @version (13 April 2015)
@@ -94,12 +94,14 @@ public class FilmGuiViewer
 
     /**
      * Inner class of FilmGuiViewer that waits for user to click a button and generates
-     *   event specific to the button pushed
+     *   event specific to the button pushed. Makes new frames visible or plays film trailer.
+     *   
+     *   
      */
     public class ClickListener implements ActionListener
     {
         /**
-         * Class listens for click events in buttons
+         * Class listens for click events in buttons.
          *      Chooses next frame to make visible and final URL choice
 
          */
@@ -155,10 +157,9 @@ public class FilmGuiViewer
 
         /**
          * 
-         * Method adds first frame after opening frame.
-         * User chooses 'scenery' choice with JButtons.
+         * Method adds first frame after opening frame containing 'scenery' choice JButtons. 
          * 
-         * @return JFrame The Scenery choice page of the user quiz.
+         * @return JFrame The scenery choice page of the user quiz.
          */
         public JFrame addFirstPage()
         {
@@ -188,9 +189,9 @@ public class FilmGuiViewer
         }
 
         /**
-         * Method adds City Scenery frame containing quiz question that leads to final film trailer
+         * Method adds city scenery frame containing quiz question that leads to final film trailer.
          * 
-         * @return JFrame The City Scenery frame containing hobby questions
+         * @return JFrame The city scenery frame containing hobby questions.
          */
         public JFrame addCityPage()
         {
@@ -241,9 +242,9 @@ public class FilmGuiViewer
         }
 
         /**
-         * Method adds Countryside Scenery frame containing quiz question that leads to final film trailer
+         * Method adds countryside scenery frame containing quiz question that leads to final film trailer.
          * 
-         * @return JFrame The Countryside Scenery frame containing hobby questions
+         * @return JFrame The countryside scenery frame containing hobby questions.
          */
         public JFrame addCountrysidePage()
         {
@@ -295,7 +296,7 @@ public class FilmGuiViewer
 
         /**
          * Method returns FilmGuiViewer instance variable of UserChoices array containing all JButton and 
-         * URL pairings to film trailer
+         * URL pairings to film trailer.
          * 
          * @return UserChoices[] array of button and URL pairings
          */
@@ -304,7 +305,7 @@ public class FilmGuiViewer
             return this.choices;
         }
         
-        /** Method opens default browser and enters website link of chosen film
+        /** Method opens default browser and enters website link of chosen film.
          * 
          * @param URL The website link of the film chosen
            
@@ -330,7 +331,7 @@ public class FilmGuiViewer
         }
 
         /**
-         * Main method of FilmGuiViewer makes FilmGuiViewer object to run code
+         * Main method of FilmGuiViewer makes FilmGuiViewer object to run code.
          */
         public static void main(String[] args)
         {
